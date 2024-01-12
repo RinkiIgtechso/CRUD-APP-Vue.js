@@ -1,0 +1,108 @@
+{
+  "products": [
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl0pymHwtrME6Sx8xJe-_D1DmzzsJ0sk3mIg&usqp=CAU",
+      "name": "Stainless Steel Mixing Bowls",
+      "title": "Set of 3 Stainless Steel Mixing Bowls",
+      "price": 29.99,
+      "discount": 11,
+      "id": 1
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqMkRaABRcTjOT7IgHrIhz9KtE-P-MiWOhQ&usqp=CAU",
+      "name": "Non-Stick Frying Pan",
+      "title": "Premium Non-Stick Frying Pan",
+      "price": 39.99,
+      "discount": 20,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Chef's Knife Set",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPyNoAdyr1GxMkghZlVxQ8XpQzkCQJ1j8Efw&usqp=CAU",
+      "title": "Professional Chef's Knife Set (3 Pieces)",
+      "price": 49.99,
+      "discount": 5
+    },
+    {
+      "id": 4,
+      "name": "Silicone Cooking Utensil Set",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfHo5su9D21ok-WeJwjZ6Y8KmcYRvJnDRL9Q&usqp=CAU",
+      "title": "Colorful Silicone Cooking Utensil Set (10 Pieces)",
+      "price": 24.99,
+      "discount": 12
+    },
+    {
+      "id": 5,
+      "name": "Stainless Steel Measuring Spoons",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfHo5su9D21ok-WeJwjZ6Y8KmcYRvJnDRL9Q&usqp=CAU",
+      "title": "Set of 5 Stainless Steel Measuring Spoons",
+      "price": 9.99,
+      "discount": 3
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPyNoAdyr1GxMkghZlVxQ8XpQzkCQJ1j8Efw&usqp=CAU",
+      "name": "Cast Iron Skillet",
+      "title": "Pre-Seasoned Cast Iron Skillet",
+      "price": 34.99,
+      "discount": 8,
+      "id": 6
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqMkRaABRcTjOT7IgHrIhz9KtE-P-MiWOhQ&usqp=CAU",
+      "name": "Bamboo Cutting Board Set",
+      "title": "Organic Bamboo Cutting Board Set (3 Pieces)",
+      "price": 19.99,
+      "discount": 17,
+      "id": 7
+    },
+    {
+      "id": 8,
+      "name": "Electric Hand Mixer",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl0pymHwtrME6Sx8xJe-_D1DmzzsJ0sk3mIg&usqp=CAU",
+      "title": "Electric Hand Mixer with 5 Speeds",
+      "price": 29.99,
+      "discount": 5
+    },
+    {
+      "id": 9,
+      "name": "Vegetable Spiralizer",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfHo5su9D21ok-WeJwjZ6Y8KmcYRvJnDRL9Q&usqp=CAU",
+      "title": "Compact Vegetable Spiralizer",
+      "price": 14.99,
+      "discount": 8
+    },
+    {
+      "id": 10,
+      "name": "Stainless Steel Trash Can",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqMkRaABRcTjOT7IgHrIhz9KtE-P-MiWOhQ&usqp=CAU",
+      "title": "Modern Stainless Steel Trash Can",
+      "price": 49.99,
+      "discount": 15
+    },
+    {
+      "id": 11,
+      "name": "Collapsible Silicone Colander",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPyNoAdyr1GxMkghZlVxQ8XpQzkCQJ1j8Efw&usqp=CAU",
+      "title": "Collapsible Silicone Colander",
+      "price": 49.99,
+      "discount": 15
+    },
+    {
+      "id": 12,
+      "name": "Collapsible Silicone Colander",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPyNoAdyr1GxMkghZlVxQ8XpQzkCQJ1j8Efw&usqp=CAU",
+      "title": "Collapsible Silicone Colander",
+      "price": 49.99,
+      "discount": 15
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl0pymHwtrME6Sx8xJe-_D1DmzzsJ0sk3mIg&usqp=CAU",
+      "name": "Silicone Cooking Utensil Set",
+      "title": "Colorful Silicone Cooking Utensil Set",
+      "price": "34.99",
+      "discount": 12,
+      "id": 13
+    }
+  ]
+}
