@@ -20,6 +20,7 @@ export const useProductsStore = defineStore('products', {
         let res = await axios.get("http://localhost:3000/products");
         let data = res.data;
         this.products = data;
+        return data;
       } catch (error) {
         console.log(error);
       }

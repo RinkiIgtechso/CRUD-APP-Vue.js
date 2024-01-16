@@ -1,7 +1,7 @@
 <template>
     <div v-if="isOpen" class="modal-overlay" @click.self="closeModal()">
         <div class="modal" @click.stop>
-            <div class="closeBtn"> <button @click="closeModal()">X</button></div>
+            <div class="closeBtn"><button @click="closeModal()">X</button></div>
             <p>Edit the product details</p>
             <div>
                 <form @submit.prevent="onSubmit">
@@ -88,7 +88,7 @@ export default {
 };
 </script>
 
-<style scoped   >
+<style >
 .modal-overlay {
   position: fixed;
   top: 0;
