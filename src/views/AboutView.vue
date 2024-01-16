@@ -2,15 +2,15 @@
   <div class="about">
     <div>
       <div class="output">
-      <div class="outputCalc">{{ calculatorValue || 0 }}</div>
+        <div class="outputCalc">{{ previousCalculatorValue ? previousCalculatorValue : calculatorValue }}</div>
       </div>
       <div class="buttons output">
         <div class="button" 
           v-for="n in btnArr" 
-          :class="{ operator: ['C', '*', '/', '-', '+', '%', '='].includes(n) }" 
+          :class="{ operator: ['C', '*', '/', '-', '+', '%', '=','CE'].includes(n) }" 
           :key="n"
         >
-          <div class="btn" @click="action(n)">{{ n }}</div>
+          <div class="btn" @click="action(n)">{{ n }}</div> 
         </div>
       </div>
     </div>
@@ -42,6 +42,7 @@ export default{
         "=",
         "0",
         ".",
+        "CE"
       ],
       operator: null,
       calculatorValue: '',
@@ -50,8 +51,27 @@ export default{
   },
   methods:{
     action(n){
-      this.previousCalculatorValue.push(n);
-      console.log(this.previousCalculatorValue);
+      this.previousCalculatorValue = this.previousCalculatorValue + n;
+      if(n==="CE"){
+        this.previousCalculatorValue = this.previousCalculatorValue.slice(0, -3)
+      }
+      if(this.calculatorValue && n){
+        if(n==='CE'){
+          this.previousCalculatorValue = String(this.calculatorValue).slice(0, -1)
+        }else{
+          this.previousCalculatorValue = this.calculatorValue + n;
+        }
+        this.calculatorValue = ''
+      }
+      if(n==="="){
+        let arr = this.previousCalculatorValue.split("=");
+        this.calculatorValue = eval(arr[0]);
+        this.previousCalculatorValue = '';
+      }
+      if(n==="C"){
+        this.previousCalculatorValue = '';
+        this.calculatorValue = '';
+      }
     }
   }
 }
@@ -65,6 +85,7 @@ export default{
 .about>div{
   width: 30%;
   margin: auto;
+  margin-bottom: 5.6rem;
 }
 .output{
   border: 0.5px solid rgb(255, 198, 124);

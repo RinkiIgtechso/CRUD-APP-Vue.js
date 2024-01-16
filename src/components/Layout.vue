@@ -1,7 +1,8 @@
 <template>
     <nav v-if="isAuthenticated">
       <router-link to="/home">Home</router-link> 
-      <router-link to="/about">About</router-link>
+      <router-link to="/calc">Calculator</router-link>
+      <router-link to="/math-quiz">math-quiz</router-link>
       <div class="logout" @click="logout">Logout</div>
     </nav>
     <router-view/>
@@ -10,7 +11,6 @@
 
 <script>
 import { useProductsStore } from '@/store';
-import { computed } from 'vue';
 
 export default{
     name: "Layout",
@@ -51,7 +51,6 @@ export default{
         font-weight: bold;
         color:teal;
     }
-
     a{
         text-decoration: none;
         color:teal;
